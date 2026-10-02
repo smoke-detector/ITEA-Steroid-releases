@@ -12,7 +12,7 @@ network you do not control.
 
 | What | Default | Change it |
 |---|---|---|
-| Dashboard login | `admin` / `ITEAdvisors` | Dashboard → System → Admin password |
+| Dashboard login | `itea` / `ITEAdvisors` | Dashboard → System → Admin password |
 | SSH / console login | `itea` / `ITEAdvisors` (you set this in Raspberry Pi Imager, see below) | Dashboard → System → Pi login password |
 | Setup hotspot Wi-Fi | `ITEA-Steroid` / `ITEAdvisors` | Dashboard → System → Setup hotspot |
 | Access point Wi-Fi | `ITEA-Steroid-AP` / `ITEAdvisors` | Dashboard → Network mode |
@@ -31,7 +31,7 @@ network you do not control.
    curl -fsSL https://github.com/smoke-detector/ITEA-Steroid-releases/releases/latest/download/get.sh | sudo sh
    ```
 
-3. Open `http://itea-steroid.local` and sign in with `admin` / `ITEAdvisors`.
+3. Open `http://itea-steroid.local` and sign in with `itea` / `ITEAdvisors`.
 
 The installer never changes the Pi's own password; it uses whichever user you created
 in Imager. Run the same command again at any time to upgrade; settings and files are
